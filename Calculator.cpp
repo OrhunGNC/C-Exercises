@@ -16,22 +16,28 @@ int main(){
 	scanf("%f",&b);
 	if(z==1){
 		result=a+b;
-		printf("%f",result);
+		printf("%f\n\n",result);
+		return main();
 	}
 	else if(z==2){
 		result=a-b;
-		printf("%f",result);
+		printf("%f\n\n",result);
+		return main();
 	}
 	else if(z==3){
 		result=a/b;
-		printf("%f",result);
+		printf("%f\n\n",result);
+		return main();
 	}
 	else if(z==4){
 		result=a*b;
-		printf("%f",result);
+		printf("%f\n\n",result);
+		return main();
 	}
 	else{
-		printf("Wrong Command!");
+		printf("Wrong Command!\n\n");
+		continue;
+		return main();
 	}
 	return 0;
 }
