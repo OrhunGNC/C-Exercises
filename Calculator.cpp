@@ -36,7 +36,7 @@ int main(){
 	}
 	else{
 		printf("Wrong Command!\n\n");
-		continue;
+		//continue;
 		return main();
 	}
 	return 0;
